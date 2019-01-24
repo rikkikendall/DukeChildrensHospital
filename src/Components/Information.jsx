@@ -31,6 +31,7 @@ class Information extends Component {
               </Card>
             </div>
           <Paper>
+            <Card>
             <Typography variant="display1" component="h3">
             Help the Duke Baseball & Softball teams strikeout children’s cancer by joining our team.
             </Typography>
@@ -52,6 +53,7 @@ class Information extends Component {
             <img src= { baseballlogo }
               width="400"
               height="200"/>
+            </Card>
             </Paper>
             <Card style={{ background: '' }}>
               <br />

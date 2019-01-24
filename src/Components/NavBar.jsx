@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 // Material UI Components
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import MenuIcon from '@material-ui/icons/Menu';
-import { Link, Grid, Menu, MenuItem, AppBar, Toolbar, Button, IconButton, Paper, Card } from '@material-ui/core/';
+import { Grid, AppBar, Toolbar, Button } from '@material-ui/core/';
 
 const styles = theme => ({
   button: {

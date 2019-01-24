@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // Material UI Components
 import Typography from '@material-ui/core/Typography';
-import { Paper, Card } from '@material-ui/core/';
+import { Card } from '@material-ui/core/';
 
 class DonationForm extends Component {
   render() {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import windowSize from 'react-window-size';
 import logo from './ks4cancerfinal.png';
 import './App.css';
 // Material UI Components
@@ -10,19 +11,6 @@ import { AnimatedNumber } from './Components/AnimatedNumber';
 import { DonationForm } from './Components/DonationForm';
 import { Footer } from './Components/Footer';
 import { NavBar } from './Components/NavBar';
-
-const styles = {
-  root: {
-    flexGrow: 1,
-  },
-  grow: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 15,
-  },
-};
 
 class App extends Component {
   render() {
@@ -42,4 +30,4 @@ class App extends Component {
   }
 }
 
-export default withStyles(styles)(App);
+export default windowSize(App);

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Chip from '@material-ui/core/Chip';
-import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 
