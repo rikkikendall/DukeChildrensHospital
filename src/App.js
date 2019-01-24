@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import logo from './ks4cancerfinal.png';
 import './App.css';
 // Material UI Components

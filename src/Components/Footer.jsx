@@ -11,7 +11,7 @@ class Footer extends Component {
         width="400"
         height="100"/>
         <br />
-        <Typography variant="inherit"> Created by Rikki Kendall (Web Design) <br /> Thea Dowrich (Pledge Donation Form), & Kelly Yang (Logo Designer) </Typography>
+        <Typography variant="inherit"> Created by Rikki Kendall (Web Design) <br /> Thea Dowrich (Pledge Donations), & Kelly Yang (Logo Designer) </Typography>
       </footer>
     );
   }

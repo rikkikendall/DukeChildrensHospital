@@ -25,9 +25,11 @@ class Information extends Component {
           </Typography>
           <br />
             <div align="center">
-              <ReactPlayer url='https://youtu.be/B8D_tyuSXZU' />
+              <Card>
+              <ReactPlayer url='https://youtu.be/nhStMOdMsX8' playing />
+              <br />
+              </Card>
             </div>
-            <br />
           <Paper>
             <Typography variant="display1" component="h3">
             Help the Duke Baseball & Softball teams strikeout children’s cancer by joining our team.
