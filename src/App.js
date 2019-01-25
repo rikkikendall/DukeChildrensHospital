@@ -8,7 +8,6 @@ import { Card } from '@material-ui/core/';
 // import Components
 import { Information } from './Components/Information';
 import { AnimatedNumber } from './Components/AnimatedNumber';
-import { DonationForm } from './Components/DonationForm';
 import { Footer } from './Components/Footer';
 import { NavBar } from './Components/NavBar';
 
@@ -23,7 +22,6 @@ class App extends Component {
           height="400" />
         </Card>
         <Information />
-        <DonationForm />
         <Footer />
       </div>
     );

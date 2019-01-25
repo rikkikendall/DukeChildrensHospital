@@ -34,6 +34,8 @@ class Donors extends Component {
           <Chip label="$0.50" />
           <Chip label="$1.00" />
           <Chip label="$1.50" />
+          <Chip label="$2.00" />
+          <Chip label="$2.50" />
         </div>
         <br />
         <Typography gutterBottom variant="subtitle1" color="textSecondary">
