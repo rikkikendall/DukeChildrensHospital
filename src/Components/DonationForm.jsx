@@ -35,6 +35,8 @@ class DonationForm extends Component {
               color="primary"
               href="https://docs.google.com/forms/d/e/1FAIpQLScgfDak6l_8T_EaX7osUl_hYEHE5jun1o1IxXksOdCOxDjj0w/viewform?embedded=true"> Click Here to Donate! </Button>
           <br />
+          <br />
+          <Typography variant="body1"> Thank you for supporting Duke Children’s and Duke Baseball and Softball. </Typography>
           </Card>
         </Mobile>
       </div>

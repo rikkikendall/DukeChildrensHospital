@@ -82,7 +82,9 @@ class Information extends Component {
                 <br />
                 <br />
               </Typography>
-              <DonorStepper />
+              <Desktop>
+                <DonorStepper />
+              </Desktop>
               <DonationForm />
               <br />
             </Card>
