@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 // Material UI Components
 import { withStyles } from '@material-ui/core/styles';
 import { Grid, AppBar, Toolbar, Button } from '@material-ui/core/';
+import Responsive from 'react-responsive';
+
+const Desktop = props => <Responsive {...props} minWidth={992} />;
+const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />;
+const Mobile = props => <Responsive {...props} maxWidth={767} />;
+const Default = props => <Responsive {...props} minWidth={768} />;
 
 const styles = theme => ({
   button: {
@@ -26,6 +32,7 @@ class NavBar extends Component {
             </Grid>
             <Grid item xs={6}>
             </Grid>
+            <Desktop>
             <Grid item xs>
                 <br />
                 <br />
@@ -38,6 +45,7 @@ class NavBar extends Component {
                   </Button>
                   </a>
             </Grid>
+            </Desktop>
             </Grid>
           </Toolbar>
         </AppBar>

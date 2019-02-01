@@ -11,6 +11,12 @@ import softballlogo from './DukeSoftballLogo.jpg';
 import { DonorStepper } from './DonorStepper';
 import { Donors } from './Donors';
 import { DonationForm } from './DonationForm';
+// Responsive
+import Responsive from 'react-responsive';
+const Desktop = props => <Responsive {...props} minWidth={992} />;
+const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />;
+const Mobile = props => <Responsive {...props} maxWidth={767} />;
+const Default = props => <Responsive {...props} minWidth={768} />;
 
 class Information extends Component {
   render() {
@@ -26,12 +32,14 @@ class Information extends Component {
             Show your support by pledging funds for each strike out a Duke pitcher throws!
           </Typography>
           <br />
+          <Desktop>
             <div align="center">
               <Card>
               <ReactPlayer url='https://youtu.be/nhStMOdMsX8' playing />
               <br />
               </Card>
             </div>
+          </Desktop>
           <Paper>
             <Card>
             <br />
