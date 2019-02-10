@@ -26,9 +26,16 @@ class NavBar extends Component {
           <Toolbar>
           <Grid container spacing={24}>
             <Grid item xs>
+              <Desktop>
               <img src="http://d9hhrg4mnvzow.cloudfront.net/www.bluedevilsbirdiesforbabies.org/99ba4b3c-white-duke-cmn-double-logo_0go03y0go03y000000.png"
               width="400"
               height="100" />
+              </Desktop>
+              <Mobile>
+                <img src="http://d9hhrg4mnvzow.cloudfront.net/www.bluedevilsbirdiesforbabies.org/99ba4b3c-white-duke-cmn-double-logo_0go03y0go03y000000.png"
+                width="350"
+                height="90" />
+              </Mobile>
             </Grid>
             <Grid item xs={6}>
             </Grid>
