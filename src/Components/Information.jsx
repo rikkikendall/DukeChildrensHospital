@@ -28,7 +28,6 @@ class Information extends Component {
             Strikeout Kids' Cancer!
           </Typography>
           <Typography variant="h5" component="h2">
-            Help the Duke Baseball and Softball teams strikeout pediatric cancer by joining our team. <br />
             Show your support by pledging funds for each strike out a Duke pitcher throws!
           </Typography>
           <br />
