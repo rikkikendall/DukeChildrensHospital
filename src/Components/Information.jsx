@@ -54,7 +54,7 @@ class Information extends Component {
               <Typography variant="h5" component="h3"> Total raised in the 2018-2019 season to date:
               </Typography>
               <br />
-              <Typography variant="h2"> $17,162.25  </Typography>
+              <Typography variant="h2"> $17,462.25  </Typography>
               <br/>
               <LinearProgress color="secondary" />
               <br />
