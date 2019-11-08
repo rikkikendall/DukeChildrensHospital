@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid, AppBar, Toolbar, Button } from '@material-ui/core/';
 import Responsive from 'react-responsive';
-import logo from './FFlogo.png';
 
 const Desktop = props => <Responsive {...props} minWidth={992} />;
 const Tablet = props => <Responsive {...props} minWidth={768} maxWidth={991} />;
@@ -25,11 +24,11 @@ class NavBar extends Component {
       <div>
         <AppBar position="static" style={{ background: '#262626' }}>
           <Toolbar>
-          <Grid container spacing={10}>
+          <Grid container spacing={24}>
             <Grid item xs>
               <Desktop>
-              <img src= {logo}
-              width="90"
+              <img src="http://d9hhrg4mnvzow.cloudfront.net/www.bluedevilsbirdiesforbabies.org/99ba4b3c-white-duke-cmn-double-logo_0go03y0go03y000000.png"
+              width="400"
               height="100" />
               </Desktop>
               <Mobile>
@@ -44,7 +43,7 @@ class NavBar extends Component {
             <Grid item xs>
                 <br />
                 <br />
-                <a  href="mailto:george.grody@duke.edu">
+                <a  href="mailto:debra.l.taylor@duke.edu">
                   <Button
                     variant="outlined"
                     color="secondary"
