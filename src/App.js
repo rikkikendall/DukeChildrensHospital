@@ -22,6 +22,7 @@ class App extends Component {
       <div className="App">
         <AppLogo />
         <Information />
+        <Footer />
       </div>
     );
   }
