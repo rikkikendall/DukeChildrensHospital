@@ -23,7 +23,6 @@ class App extends Component {
         <NavBar />
         <AppLogo />
         <Information />
-        <Footer />
       </div>
     );
   }
