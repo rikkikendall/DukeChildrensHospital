@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './ks4cancerfinal.png';
+import logo from './FFlogo.png';
 // Material UI Components
 import { Card } from '@material-ui/core/';
 import Responsive from 'react-responsive';
@@ -13,24 +13,20 @@ class AppLogo extends Component {
   render() {
     return (
       <div>
-        <Card className="Logo">
         <Desktop>
           <img src= {logo}
-          width="1000"
+          width="350"
           height="400" />
           </Desktop>
           <Mobile>
           <img src= {logo}
-          width="350"
+          width="110"
           height="120" />
           </Mobile>
-        </Card>
       </div>
     );
   }
 }
-
-export default AppLogo;
 
 export {
   AppLogo,

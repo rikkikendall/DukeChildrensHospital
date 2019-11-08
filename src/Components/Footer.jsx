@@ -2,16 +2,17 @@ import React, { Component } from 'react';
 // Material UI Components
 import Typography from '@material-ui/core/Typography';
 import { Card } from '@material-ui/core/';
+import logo from './FFlogo.png';
 
 class Footer extends Component {
   render() {
     return (
       <footer className="App-header">
-        <img src="http://d9hhrg4mnvzow.cloudfront.net/www.bluedevilsbirdiesforbabies.org/99ba4b3c-white-duke-cmn-double-logo_0go03y0go03y000000.png"
-        width="400"
-        height="100"/>
+        <img src= {logo}
+        width="100"
+        height="120"/>
+        <Typography variant="h5"> Created by Rikki Kendall & <br /> Thea Dowrich </Typography>
         <br />
-        <Typography variant="inherit"> Created by Rikki Kendall (Web Design) <br /> Thea Dowrich (Pledge Donations), and Kelly Yang (Logo Designer) </Typography>
       </footer>
     );
   }
