@@ -12,17 +12,12 @@ const Default = props => <Responsive {...props} minWidth={768} />;
 class DonationForm extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="form">
         <Desktop>
         <Card color="#001A57">
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScgfDak6l_8T_EaX7osUl_hYEHE5jun1o1IxXksOdCOxDjj0w/viewform?embedded=true"
-            width="700"
-            height="1930"
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0">Loading...</iframe>
-          <Typography variant="display1"> Thank you for supporting Duke Children’s and Duke Baseball and Softball. </Typography>
+            src="https://docs.google.com/forms/d/e/1FAIpQLScOalp1mde3xF_ktek4bWIT1_A21zK6eGjz9AB_2ttan5KX_A/viewform?embedded=true"
+            width="640" height="2286" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           <br />
           <br />
         </Card>
@@ -33,10 +28,9 @@ class DonationForm extends Component {
           <Button
               variant="contained"
               color="primary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScgfDak6l_8T_EaX7osUl_hYEHE5jun1o1IxXksOdCOxDjj0w/viewform?embedded=true"> Click Here to Donate! </Button>
+              href="https://docs.google.com/forms/d/e/1FAIpQLScOalp1mde3xF_ktek4bWIT1_A21zK6eGjz9AB_2ttan5KX_A/viewform?embedded=true"> Click Here to Donate! </Button>
           <br />
           <br />
-          <Typography variant="body1"> Thank you for supporting Duke Children’s and Duke Baseball and Softball. </Typography>
           </Card>
         </Mobile>
       </div>
