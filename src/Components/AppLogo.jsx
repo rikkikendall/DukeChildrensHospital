@@ -30,4 +30,4 @@ class AppLogo extends Component {
 
 export {
   AppLogo,
-}
+};
